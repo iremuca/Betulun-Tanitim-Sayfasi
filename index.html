@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Betül Uca — Web Tasarımcı</title>
+  <meta name="description" content="Betül Uca'nın kişisel tanıtım sayfası. 18 yaşında, 11. sınıf web tasarımcı, İstanbul." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="blobs" aria-hidden="true">
+    <span class="blob blob--1"></span>
+    <span class="blob blob--2"></span>
+    <span class="blob blob--3"></span>
+  </div>
+
+  <main class="page">
+    <section class="card reveal">
+      <div class="card__top">
+        <div class="avatar" aria-hidden="true">
+          <span class="avatar__initials">BU</span>
+        </div>
+        <div class="intro">
+          <p class="intro__role">Web Tasarımcı</p>
+          <h1 class="intro__name">Betül Uca</h1>
+          <p class="intro__tagline">Estetik ve sadeliği buluşturan, modern web tasarımına tutkuyla bağlı bir genç.</p>
+        </div>
+      </div>
+
+      <div class="quick">
+        <div class="quick__item">
+          <span class="quick__label">Yaş</span>
+          <span class="quick__value">18</span>
+        </div>
+        <div class="quick__divider" aria-hidden="true"></div>
+        <div class="quick__item">
+          <span class="quick__label">Sınıf</span>
+          <span class="quick__value">11</span>
+        </div>
+        <div class="quick__divider" aria-hidden="true"></div>
+        <div class="quick__item">
+          <span class="quick__label">Yer</span>
+          <span class="quick__value">İstanbul, TR</span>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="panel panel--hobbies">
+          <h2 class="panel__title">Hobilerim</h2>
+          <ul class="chips">
+            <li class="chip">
+              <svg class="chip__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H10v15H5.5A1.5 1.5 0 0 1 4 17.5v-12Z" fill="currentColor" opacity=".9"/><path d="M20 5.5A1.5 1.5 0 0 0 18.5 4H14v15h4.5a1.5 1.5 0 0 0 1.5-1.5v-12Z" fill="currentColor" opacity=".55"/></svg>
+              Kitap okumak
+            </li>
+            <li class="chip">
+              <svg class="chip__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 18V6l9-2v12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6.5" cy="18" r="2.5" fill="currentColor"/><circle cx="15.5" cy="16" r="2.5" fill="currentColor"/></svg>
+              Müzik dinlemek
+            </li>
+            <li class="chip">
+              <svg class="chip__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5" stroke="currentColor" stroke-width="1.8"/><path d="M3 9h18M3 15h18M8 5v14M16 5v14" stroke="currentColor" stroke-width="1.6"/></svg>
+              Film izlemek
+            </li>
+          </ul>
+        </div>
+
+        <div class="panel panel--future">
+          <h2 class="panel__title">Gelecek Planım</h2>
+          <p class="panel__text">Bilgisayar Mühendisliği okuyarak tasarım ve teknik becerilerimi birleştirip, yaratıcı dijital deneyimler geliştirmek istiyorum.</p>
+        </div>
+      </div>
+
+      <div class="contact">
+        <a class="contact__btn" href="mailto:ucabetul6113@gmail.com">
+          <span class="contact__btn-icon" aria-hidden="true">✉</span>
+          İletişime geç
+        </a>
+        <p class="contact__mail">ucabetul6113@gmail.com</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Betül Uca · İstanbul, Türkiye</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
